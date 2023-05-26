@@ -9,7 +9,7 @@ export default async function Home() {
     <>
       <div className="container mx-auto px-2 pt-2">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-          {data.data.map((item) => {
+          {data?.data?.map((item) => {
             return (
               <div key={item.id}>
                 <Link href={`/product/${item.attributes.slug}`}>

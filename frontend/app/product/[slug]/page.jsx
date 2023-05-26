@@ -14,7 +14,7 @@ const Product = async ({ params: { slug } }) => {
           alt="ecommerce"
           className="object-cover object-center rounded"
           src={
-            data.data[0].attributes.main_img.data.attributes.url
+            data?.data[0].attributes.main_img.data.attributes.url
           }
         />
         <div className="w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
