@@ -2,7 +2,7 @@
 eCommerce website using NextJS, Strapi and Stripe.
 
 ## Backend .env file
-HOST=<host>
+HOST=|host|
 PORT=<port>
 APP_KEYS=<appkeys>
 API_TOKEN_SALT=<apptokensalt>
